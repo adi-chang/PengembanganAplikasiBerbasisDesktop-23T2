@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35219.272
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BangunDatar", "BangunDatar\BangunDatar.csproj", "{141739CA-D870-45E8-B18B-F10B4421CCFA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{141739CA-D870-45E8-B18B-F10B4421CCFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{141739CA-D870-45E8-B18B-F10B4421CCFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{141739CA-D870-45E8-B18B-F10B4421CCFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{141739CA-D870-45E8-B18B-F10B4421CCFA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {361A33A7-79C7-4E0F-830B-78ECD7D38DDD}
+	EndGlobalSection
+EndGlobal
