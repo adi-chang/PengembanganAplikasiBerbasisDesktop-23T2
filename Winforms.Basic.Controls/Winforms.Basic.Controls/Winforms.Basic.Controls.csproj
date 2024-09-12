@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5041CE9F-512B-4845-9455-99AA6DDCCD34}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Winforms.Basic.Controls</RootNamespace>
+    <AssemblyName>Winforms.Basic.Controls</AssemblyName>
+    <TargetFrameworkVersion>v4.8.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FrmDemoButton.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDemoButton.Designer.cs">
+      <DependentUpon>FrmDemoButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDemoButton2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDemoButton2.Designer.cs">
+      <DependentUpon>FrmDemoButton2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDemoCheckBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDemoCheckBox.Designer.cs">
+      <DependentUpon>FrmDemoCheckBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDemoComboBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDemoComboBox.Designer.cs">
+      <DependentUpon>FrmDemoComboBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDemoDataGridView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDemoDataGridView.Designer.cs">
+      <DependentUpon>FrmDemoDataGridView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDemoDialogBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDemoDialogBox.Designer.cs">
+      <DependentUpon>FrmDemoDialogBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDemoLabel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDemoLabel.Designer.cs">
+      <DependentUpon>FrmDemoLabel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDemoListBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDemoListBox.Designer.cs">
+      <DependentUpon>FrmDemoListBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDemoMessageBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDemoMessageBox.Designer.cs">
+      <DependentUpon>FrmDemoMessageBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDemoNumericUpDown.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDemoNumericUpDown.Designer.cs">
+      <DependentUpon>FrmDemoNumericUpDown.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDemoPictureBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDemoPictureBox.Designer.cs">
+      <DependentUpon>FrmDemoPictureBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDemoProgressBar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDemoProgressBar.Designer.cs">
+      <DependentUpon>FrmDemoProgressBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDemoScrollBar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDemoScrollBar.Designer.cs">
+      <DependentUpon>FrmDemoScrollBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDemoTextBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDemoTextBox.Designer.cs">
+      <DependentUpon>FrmDemoTextBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDemoTimer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDemoTimer.Designer.cs">
+      <DependentUpon>FrmDemoTimer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDemoRadioButton.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDemoRadioButton.Designer.cs">
+      <DependentUpon>FrmDemoRadioButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDemoTrackBar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDemoTrackBar.Designer.cs">
+      <DependentUpon>FrmDemoTrackBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDemoTrackBar2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDemoTrackBar2.Designer.cs">
+      <DependentUpon>FrmDemoTrackBar2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyDataGridView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FrmDemoButton.resx">
+      <DependentUpon>FrmDemoButton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDemoButton2.resx">
+      <DependentUpon>FrmDemoButton2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDemoCheckBox.resx">
+      <DependentUpon>FrmDemoCheckBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDemoComboBox.resx">
+      <DependentUpon>FrmDemoComboBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDemoDataGridView.resx">
+      <DependentUpon>FrmDemoDataGridView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDemoDialogBox.resx">
+      <DependentUpon>FrmDemoDialogBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDemoLabel.resx">
+      <DependentUpon>FrmDemoLabel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDemoListBox.resx">
+      <DependentUpon>FrmDemoListBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDemoMessageBox.resx">
+      <DependentUpon>FrmDemoMessageBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDemoNumericUpDown.resx">
+      <DependentUpon>FrmDemoNumericUpDown.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDemoPictureBox.resx">
+      <DependentUpon>FrmDemoPictureBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDemoProgressBar.resx">
+      <DependentUpon>FrmDemoProgressBar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDemoScrollBar.resx">
+      <DependentUpon>FrmDemoScrollBar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDemoTextBox.resx">
+      <DependentUpon>FrmDemoTextBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDemoTimer.resx">
+      <DependentUpon>FrmDemoTimer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDemoRadioButton.resx">
+      <DependentUpon>FrmDemoRadioButton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDemoTrackBar.resx">
+      <DependentUpon>FrmDemoTrackBar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDemoTrackBar2.resx">
+      <DependentUpon>FrmDemoTrackBar2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\No_image_available.svg.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
